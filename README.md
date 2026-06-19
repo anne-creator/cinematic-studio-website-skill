@@ -12,10 +12,10 @@ npx -y skills add anne-creator/cinematic-studio-website-skill -g
 
 ## How to use
 
-Call the skill and add your own information:
+Open Codex and paste a request like this:
 
 ```text
-Use $cinematic-studio-website to build my website.
+Build me a cinematic studio website using this information:
 
 Brand: Northline Films
 Description: A documentary studio focused on climate and human stories.
@@ -25,7 +25,9 @@ Colors: Black, warm ivory, muted forest green
 Hero media: /path/to/reel.mp4
 ```
 
-You can provide as much or as little information as you have. The skill will turn it into a responsive React website using the included cinematic design prompt.
+You can provide as much or as little information as you have. Codex will automatically use the installed skill when the request matches it.
+
+To invoke it explicitly, start the request with `$cinematic-studio-website`. Skills use `$skill-name`; `/name` is reserved for slash commands.
 
 ## Connect
 

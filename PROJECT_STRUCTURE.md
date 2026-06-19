@@ -1,6 +1,6 @@
 # Project Structure
 
-Last updated: 2026-06-19 02:13:20 UTC
+Last updated: 2026-06-19 02:20:45 UTC
 
 ## Project Structure
 
@@ -39,6 +39,7 @@ Last updated: 2026-06-19 02:13:20 UTC
 
 ## Maintenance Log
 
+- 2026-06-19 02:20:45 UTC: Feature update finalized — Clarify skill invocation
 - 2026-06-19 02:13:20 UTC: Feature update finalized — Simplify skill installation instructions
 - 2026-06-19 00:26:41 UTC: Feature update finalized — Add shareable cinematic website skill
 - 2026-06-19 00:22:46 UTC: Bootstrap project documentation — git initialized
