@@ -1,30 +1,18 @@
 # Cinematic Studio Website Skill
 
-An installable Codex skill that turns a person's own studio, portfolio, or creative-business information into a dark, cinematic React landing page. It preserves the supplied Prisma prompt as a design reference while making the identity, copy, services, calls to action, colors, and media reusable inputs.
+Build a personalized dark, cinematic website for a creative studio, artist, filmmaker, photographer, designer, or visual creator.
 
 ## Install
 
-Give the GitHub repository link to Codex and ask:
-
-```text
-Install the cinematic-studio-website skill from this GitHub repository:
-<REPOSITORY_URL>
-The skill is in cinematic-studio-website/.
-```
-
-Or use the bundled installer directly:
+Copy and paste this command:
 
 ```bash
-python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --repo OWNER/REPOSITORY \
-  --path cinematic-studio-website
+npx -y skills add anne-creator/cinematic-studio-website-skill -g
 ```
 
-Restart Codex after installation.
+## How to use
 
-## Use
-
-Invoke the skill and provide whatever information you have:
+Call the skill and add your own information:
 
 ```text
 Use $cinematic-studio-website to build my website.
@@ -37,22 +25,9 @@ Colors: Black, warm ivory, muted forest green
 Hero media: /path/to/reel.mp4
 ```
 
-The full optional intake is in [`cinematic-studio-website/references/intake.md`](cinematic-studio-website/references/intake.md). The original supplied prompt is preserved in [`cinematic-studio-website/references/original-prompt.md`](cinematic-studio-website/references/original-prompt.md).
+You can provide as much or as little information as you have. The skill will turn it into a responsive React website using the included cinematic design prompt.
 
-## Repository Layout
+## Connect
 
-```text
-cinematic-studio-website-skill/
-├── README.md
-├── PROJECT_STRUCTURE.md
-└── cinematic-studio-website/
-    ├── SKILL.md
-    ├── agents/openai.yaml
-    └── references/
-        ├── intake.md
-        └── original-prompt.md
-```
-
-## License
-
-MIT. The reference prompt includes third-party media URLs for design context; recipients should supply media they have permission to use.
+- [LinkedIn](https://www.linkedin.com/feed/)
+- [Rednote](https://www.xiaohongshu.com/user/profile/5c7f5fee00000000120200d7)
