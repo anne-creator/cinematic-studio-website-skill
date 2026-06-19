@@ -1,15 +1,21 @@
 # Project Structure
 
-Last updated: 2026-06-19 00:22:46 UTC
+Last updated: 2026-06-19 00:26:41 UTC
 
 ## Project Structure
 
-- `cinematic-studio-website/`: 2 files
+- root files: 3 files
+- `cinematic-studio-website/`: 4 files
 
 ### File Tree
 
+- `LICENSE`
+- `PROJECT_STRUCTURE.md`
+- `README.md`
 - `cinematic-studio-website/SKILL.md`
 - `cinematic-studio-website/agents/openai.yaml`
+- `cinematic-studio-website/references/intake.md`
+- `cinematic-studio-website/references/original-prompt.md`
 
 ## Workflow
 
@@ -33,4 +39,5 @@ Last updated: 2026-06-19 00:22:46 UTC
 
 ## Maintenance Log
 
+- 2026-06-19 00:26:41 UTC: Feature update finalized — Add shareable cinematic website skill
 - 2026-06-19 00:22:46 UTC: Bootstrap project documentation — git initialized

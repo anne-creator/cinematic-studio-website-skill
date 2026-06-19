@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cinematic Studio Website"
+  short_description: "Build cinematic creative studio landing pages"
+  default_prompt: "Use $cinematic-studio-website to build a cinematic website from my studio information and media."
