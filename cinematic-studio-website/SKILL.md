@@ -11,11 +11,13 @@ Build the website end to end. Treat the bundled Prisma specification as a visual
 
 1. Inspect the current workspace before choosing whether to scaffold a new app or extend an existing one.
 2. Read [references/intake.md](references/intake.md) and map the user's information into its fields.
-3. Ask only for missing details that materially block a useful result. When the request is actionable, choose sensible defaults and build immediately.
-4. Read [references/original-prompt.md](references/original-prompt.md) for the complete reference design and animation behavior.
-5. Implement the page using the repository's existing patterns when present. For a new app, use React, Vite, TypeScript, Tailwind CSS, Framer Motion, and Lucide React.
-6. Replace every Prisma-specific name, biography, service, CTA, and asset with the user's information. Never present placeholder claims as facts.
-7. Run the app, inspect it at mobile and desktop widths, fix visible issues, and run the available build, typecheck, lint, or test commands.
+3. When the user supplies public LinkedIn, GitHub, portfolio, or personal-site URLs, inspect those sources and collect relevant identity, biography, work, services, contact, and visual-brand information. Prefer the user's own site and profile data over third-party summaries.
+4. Distinguish sourced facts from assumptions. Do not invent claims, and do not attempt to bypass authentication or access private profile content. If a source is inaccessible, continue with the other inputs and mention the limitation.
+5. Ask only for missing details that materially block a useful result. When the request is actionable, choose sensible defaults and build immediately.
+6. Read [references/original-prompt.md](references/original-prompt.md) for the complete reference design and animation behavior.
+7. Implement the page using the repository's existing patterns when present. For a new app, use React, Vite, TypeScript, Tailwind CSS, Framer Motion, and Lucide React.
+8. Replace every Prisma-specific name, biography, service, CTA, and asset with the user's information. Never present placeholder claims as facts.
+9. Run the app, inspect it at mobile and desktop widths, fix visible issues, and run the available build, typecheck, lint, or test commands.
 
 ## Personalization Rules
 
@@ -40,7 +42,7 @@ Retain the shared word-pull animation components from the reference when they im
 
 ## Intake Handling
 
-Accept information in any form: prose, bullets, an existing site, a brand brief, or the template in [references/intake.md](references/intake.md). Normalize it into:
+Accept information in any form: prose, bullets, public profile links, an existing site, a brand brief, or the template in [references/intake.md](references/intake.md). Combine compatible sources and normalize them into:
 
 - identity and discipline
 - audience and desired action
